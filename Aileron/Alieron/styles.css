@@ -1,0 +1,23 @@
+body { margin: 0; padding: 0; height:100% }
+
+#tabView {overflow:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tabContent{overflow-y:hidden;}
+
+.article{
+    height: 25vh;
+    margin: 1%;
+    background-color: #D3D3D3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

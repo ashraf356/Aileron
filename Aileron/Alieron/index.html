@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.mobile-1.4.5.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div id="tabView">
+        
+        <div id="bookings" class="activeTab">
+            <div class="tabContent">
+                
+                Bookings Tab Failed to load...
+                
+            </div>
+        </div>
+        <div id="progress" style="display:none;">
+            <div class="tabContent">
+                
+                Progress Tab Failed to load...
+            
+            </div>
+        </div>
+        <div id="resources" style="display:none;">
+            <div class="tabContent">
+                
+                Resources Tab Failed to load...
+                
+            </div>
+        </div>
+        <div id="logout" style="display:none; background-color:green;">
+            <div class="tabContent">
+                
+                Logout Tab Failed to load...
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    
+        <div id="navbar" data-role="navbar" style="position:fixed; bottom:0; width: 100%">
+            <ul>
+                <li onclick="navClicked('bookings');" name="bookings"><a href="#" data-icon="grid">Bookings</a></li>
+                <li onclick="navClicked('progress');" name="progress"><a href="#" data-icon="check">Progress</a></li>
+                <li onclick="navClicked('resources');" name="resources"><a href="#" data-icon="star">Resources</a></li>
+                <li onclick="navClicked('logout');" name="logout"><a href="#" data-icon="arrow-r">Log Out</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    
+</body>
+</html>

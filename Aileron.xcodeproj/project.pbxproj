@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0155281E1216F400172C55 /* bookings.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D0155271E1216F400172C55 /* bookings.html */; };
+		1D01552A1E121A9A00172C55 /* progress.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D0155291E121A9A00172C55 /* progress.html */; };
+		1D01552C1E121AA700172C55 /* logout.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D01552B1E121AA700172C55 /* logout.html */; };
+		1D01552E1E121AB300172C55 /* resources.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D01552D1E121AB300172C55 /* resources.html */; };
+		1D449B741E0E7F1E00098F76 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D449B721E0E7F1E00098F76 /* index.html */; };
+		1D449B751E0E7F1E00098F76 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D449B731E0E7F1E00098F76 /* script.js */; };
+		1D44A64B1E0E83F200098F76 /* jquery.mobile-1.4.5.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D44A64A1E0E83F200098F76 /* jquery.mobile-1.4.5.js */; };
+		1D44A64D1E0E86F100098F76 /* jquery.mobile-1.4.5.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1D44A64C1E0E86F100098F76 /* jquery.mobile-1.4.5.min.css */; };
+		1D55362F1E0A3CAE005D5298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55362E1E0A3CAE005D5298 /* AppDelegate.swift */; };
+		1D5536311E0A3CAE005D5298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5536301E0A3CAE005D5298 /* ViewController.swift */; };
+		1D5536341E0A3CAE005D5298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5536321E0A3CAE005D5298 /* Main.storyboard */; };
+		1D5536361E0A3CAE005D5298 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5536351E0A3CAE005D5298 /* Images.xcassets */; };
+		1D5536391E0A3CAE005D5298 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5536371E0A3CAE005D5298 /* LaunchScreen.xib */; };
+		1D5536451E0A3CAE005D5298 /* AileronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5536441E0A3CAE005D5298 /* AileronTests.swift */; };
+		1D77C5C61E28789500C6ED78 /* Chart.bundle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D77C5C51E28789500C6ED78 /* Chart.bundle.min.js */; };
+		1DE549321E0EAC8B00BB3E56 /* jquery-1.11.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE549311E0EAC8B00BB3E56 /* jquery-1.11.3.min.js */; };
+		1DE549381E0EAFAA00BB3E56 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1DE549371E0EAFAA00BB3E56 /* styles.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D55363F1E0A3CAE005D5298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D5536211E0A3CAE005D5298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5536281E0A3CAE005D5298;
+			remoteInfo = Aileron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D0155271E1216F400172C55 /* bookings.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bookings.html; sourceTree = "<group>"; };
+		1D0155291E121A9A00172C55 /* progress.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = progress.html; sourceTree = "<group>"; };
+		1D01552B1E121AA700172C55 /* logout.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = logout.html; sourceTree = "<group>"; };
+		1D01552D1E121AB300172C55 /* resources.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = resources.html; sourceTree = "<group>"; };
+		1D449B721E0E7F1E00098F76 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1D449B731E0E7F1E00098F76 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		1D44A64A1E0E83F200098F76 /* jquery.mobile-1.4.5.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.4.5.js"; sourceTree = "<group>"; };
+		1D44A64C1E0E86F100098F76 /* jquery.mobile-1.4.5.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "jquery.mobile-1.4.5.min.css"; sourceTree = "<group>"; };
+		1D5536291E0A3CAE005D5298 /* Aileron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aileron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D55362D1E0A3CAE005D5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D55362E1E0A3CAE005D5298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D5536301E0A3CAE005D5298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D5536331E0A3CAE005D5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5536351E0A3CAE005D5298 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D5536381E0A3CAE005D5298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D55363E1E0A3CAE005D5298 /* AileronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AileronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5536431E0A3CAE005D5298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5536441E0A3CAE005D5298 /* AileronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AileronTests.swift; sourceTree = "<group>"; };
+		1D77C5C51E28789500C6ED78 /* Chart.bundle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Chart.bundle.min.js; sourceTree = "<group>"; };
+		1DE549311E0EAC8B00BB3E56 /* jquery-1.11.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.11.3.min.js"; sourceTree = "<group>"; };
+		1DE549371E0EAFAA00BB3E56 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5536261E0A3CAE005D5298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D55363B1E0A3CAE005D5298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D449B711E0E7F1E00098F76 /* Webfiles */ = {
+			isa = PBXGroup;
+			children = (
+				1D449B721E0E7F1E00098F76 /* index.html */,
+				1DE549371E0EAFAA00BB3E56 /* styles.css */,
+				1D44A64A1E0E83F200098F76 /* jquery.mobile-1.4.5.js */,
+				1DE549311E0EAC8B00BB3E56 /* jquery-1.11.3.min.js */,
+				1D44A64C1E0E86F100098F76 /* jquery.mobile-1.4.5.min.css */,
+				1D449B731E0E7F1E00098F76 /* script.js */,
+				1D0155271E1216F400172C55 /* bookings.html */,
+				1D0155291E121A9A00172C55 /* progress.html */,
+				1D77C5C51E28789500C6ED78 /* Chart.bundle.min.js */,
+				1D01552D1E121AB300172C55 /* resources.html */,
+				1D01552B1E121AA700172C55 /* logout.html */,
+			);
+			name = Webfiles;
+			path = Alieron;
+			sourceTree = "<group>";
+		};
+		1D5536201E0A3CAE005D5298 = {
+			isa = PBXGroup;
+			children = (
+				1D55362B1E0A3CAE005D5298 /* Aileron */,
+				1D5536411E0A3CAE005D5298 /* AileronTests */,
+				1D55362A1E0A3CAE005D5298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D55362A1E0A3CAE005D5298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5536291E0A3CAE005D5298 /* Aileron.app */,
+				1D55363E1E0A3CAE005D5298 /* AileronTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D55362B1E0A3CAE005D5298 /* Aileron */ = {
+			isa = PBXGroup;
+			children = (
+				1D55362E1E0A3CAE005D5298 /* AppDelegate.swift */,
+				1D5536301E0A3CAE005D5298 /* ViewController.swift */,
+				1D449B711E0E7F1E00098F76 /* Webfiles */,
+				1D5536321E0A3CAE005D5298 /* Main.storyboard */,
+				1D5536351E0A3CAE005D5298 /* Images.xcassets */,
+				1D5536371E0A3CAE005D5298 /* LaunchScreen.xib */,
+				1D55362C1E0A3CAE005D5298 /* Supporting Files */,
+			);
+			path = Aileron;
+			sourceTree = "<group>";
+		};
+		1D55362C1E0A3CAE005D5298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D55362D1E0A3CAE005D5298 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5536411E0A3CAE005D5298 /* AileronTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5536441E0A3CAE005D5298 /* AileronTests.swift */,
+				1D5536421E0A3CAE005D5298 /* Supporting Files */,
+			);
+			path = AileronTests;
+			sourceTree = "<group>";
+		};
+		1D5536421E0A3CAE005D5298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5536431E0A3CAE005D5298 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5536281E0A3CAE005D5298 /* Aileron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5536481E0A3CAE005D5298 /* Build configuration list for PBXNativeTarget "Aileron" */;
+			buildPhases = (
+				1D5536251E0A3CAE005D5298 /* Sources */,
+				1D5536261E0A3CAE005D5298 /* Frameworks */,
+				1D5536271E0A3CAE005D5298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aileron;
+			productName = Aileron;
+			productReference = 1D5536291E0A3CAE005D5298 /* Aileron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D55363D1E0A3CAE005D5298 /* AileronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D55364B1E0A3CAE005D5298 /* Build configuration list for PBXNativeTarget "AileronTests" */;
+			buildPhases = (
+				1D55363A1E0A3CAE005D5298 /* Sources */,
+				1D55363B1E0A3CAE005D5298 /* Frameworks */,
+				1D55363C1E0A3CAE005D5298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5536401E0A3CAE005D5298 /* PBXTargetDependency */,
+			);
+			name = AileronTests;
+			productName = AileronTests;
+			productReference = 1D55363E1E0A3CAE005D5298 /* AileronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5536211E0A3CAE005D5298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Ashraf Omar";
+				TargetAttributes = {
+					1D5536281E0A3CAE005D5298 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1D55363D1E0A3CAE005D5298 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1D5536281E0A3CAE005D5298;
+					};
+				};
+			};
+			buildConfigurationList = 1D5536241E0A3CAE005D5298 /* Build configuration list for PBXProject "Aileron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5536201E0A3CAE005D5298;
+			productRefGroup = 1D55362A1E0A3CAE005D5298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5536281E0A3CAE005D5298 /* Aileron */,
+				1D55363D1E0A3CAE005D5298 /* AileronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5536271E0A3CAE005D5298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D01552C1E121AA700172C55 /* logout.html in Resources */,
+				1DE549321E0EAC8B00BB3E56 /* jquery-1.11.3.min.js in Resources */,
+				1D01552A1E121A9A00172C55 /* progress.html in Resources */,
+				1D5536341E0A3CAE005D5298 /* Main.storyboard in Resources */,
+				1D77C5C61E28789500C6ED78 /* Chart.bundle.min.js in Resources */,
+				1D01552E1E121AB300172C55 /* resources.html in Resources */,
+				1D449B751E0E7F1E00098F76 /* script.js in Resources */,
+				1D44A64B1E0E83F200098F76 /* jquery.mobile-1.4.5.js in Resources */,
+				1D5536391E0A3CAE005D5298 /* LaunchScreen.xib in Resources */,
+				1D449B741E0E7F1E00098F76 /* index.html in Resources */,
+				1DE549381E0EAFAA00BB3E56 /* styles.css in Resources */,
+				1D5536361E0A3CAE005D5298 /* Images.xcassets in Resources */,
+				1D0155281E1216F400172C55 /* bookings.html in Resources */,
+				1D44A64D1E0E86F100098F76 /* jquery.mobile-1.4.5.min.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D55363C1E0A3CAE005D5298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5536251E0A3CAE005D5298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5536311E0A3CAE005D5298 /* ViewController.swift in Sources */,
+				1D55362F1E0A3CAE005D5298 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D55363A1E0A3CAE005D5298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5536451E0A3CAE005D5298 /* AileronTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5536401E0A3CAE005D5298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5536281E0A3CAE005D5298 /* Aileron */;
+			targetProxy = 1D55363F1E0A3CAE005D5298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5536321E0A3CAE005D5298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5536331E0A3CAE005D5298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5536371E0A3CAE005D5298 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5536381E0A3CAE005D5298 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5536461E0A3CAE005D5298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D5536471E0A3CAE005D5298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D5536491E0A3CAE005D5298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aileron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D55364A1E0A3CAE005D5298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aileron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D55364C1E0A3CAE005D5298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AileronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aileron.app/Aileron";
+			};
+			name = Debug;
+		};
+		1D55364D1E0A3CAE005D5298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AileronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aileron.app/Aileron";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5536241E0A3CAE005D5298 /* Build configuration list for PBXProject "Aileron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5536461E0A3CAE005D5298 /* Debug */,
+				1D5536471E0A3CAE005D5298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5536481E0A3CAE005D5298 /* Build configuration list for PBXNativeTarget "Aileron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5536491E0A3CAE005D5298 /* Debug */,
+				1D55364A1E0A3CAE005D5298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D55364B1E0A3CAE005D5298 /* Build configuration list for PBXNativeTarget "AileronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55364C1E0A3CAE005D5298 /* Debug */,
+				1D55364D1E0A3CAE005D5298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5536211E0A3CAE005D5298 /* Project object */;
+}

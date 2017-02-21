@@ -1,0 +1,49 @@
+<script src="Chart.bundle.min.js"></script>
+
+
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                            labels: ["January", "February", "March"],
+                            datasets: [{
+                                       label: 'Training History',
+                                       data: [4, 3, 5],
+                                       borderColor: 'rgba(255,0,0,1)',
+                                       fill: false,
+                                       borderWidth: 1
+                                       }]
+                            },
+                            options: {
+                                title: {
+                                    display: true,
+                                    text: 'Training History'
+                                },
+                                legend: {
+                                    display: false
+                                },
+                                scales: {
+                                    yAxes: [{
+                                            ticks: {
+                                                min: 0,
+                                                stepSize: 1
+                                            }
+                                    }]
+                                }
+                            }
+                            });
+</script>
+
+<div data-role="main" class="ui-content">
+    <p>Track Record:</p>
+    <div class="ui-grid-b">
+        <div class="ui-block-a"><span>This month</span></div>
+        <div class="ui-block-b"><span>5</span></div>
+        <div class="ui-block-a"><span>This year</span></div>
+        <div class="ui-block-b"><span>12</span></div>
+        <div class="ui-block-a"><span>All time</span></div>
+        <div class="ui-block-b"><span>32</span></div>
+    </div>
+</div>
